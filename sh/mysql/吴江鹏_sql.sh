@@ -1,6 +1,6 @@
 #!/bin/bash
 # Mysql Master/Slave Server Create Script
-# ULA_0823_吴江鹏
+# 吴江鹏
 fire(){
 systemctl disable firewalld;systemctl stop firewalld
 echo "已关闭防火墙"
