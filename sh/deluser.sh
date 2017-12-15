@@ -1,5 +1,6 @@
 #! /bin/bash
-for i in `grep "/bin/bash$" /etc/passwd|cut -d : -f 1|grep -v root|grep -v peng`
+# 删除实验环境多余的账户
+for i in `awk -F: '/\/bin\/bash$/{print $1}' /etc/passwd|sed "/root/d;/test/d"`
 do
 	userdel -r $i
 done
