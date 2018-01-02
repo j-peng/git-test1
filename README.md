@@ -1,2 +1,2 @@
-# git-test1
-测试库，放的是一些小脚本
+# scripts
+放的一些自己用的bash Shell小脚本
