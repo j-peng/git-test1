@@ -1,3 +1,5 @@
+#!/bin/bash
+
 kaishi(){ 
 systemctl start httpd 
 }  
