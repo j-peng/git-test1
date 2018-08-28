@@ -1,5 +1,5 @@
 yumrepolist(){
-mkdir //mnt/centos7
+mkdir /mnt/centos7
 mount /dev/dr0 /mnt/centos7
 mkdir /etc/yum.repo.d/repobak
 mv /etc/yum.repo.d/*.repo /etc/yum.repo.d/repobak
