@@ -1,5 +1,5 @@
 #!/bin/bash
-#Useradd user1~user5
+#Useradd
 #J.P.Wu 170926-0.0.1
 useradd user1;echo "user user1 added."
 useradd user2;echo "user user2 added."
