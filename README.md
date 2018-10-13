@@ -1,2 +1,2 @@
-# scripts
-放的一些自己用的bash Shell小脚本
+＃scripts
+杂七杂八的小脚本
