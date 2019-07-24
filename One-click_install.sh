@@ -1,6 +1,6 @@
 #!/bin/bash
 # DNS,Apache,Nginx综合部署
-# DNS,Apache,Nginx One-click deployment
+# DNS,Apache,Nginx One-click install
 # updated in 2019-07-25
 echo -e "请按序号选择部署的内容，输入 exit 退出程序\n1、DNS （bind）\n2、Apache（Web Server）\n3、Nginx（Web Server）\n"
 while read bushu
